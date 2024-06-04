@@ -1,0 +1,8 @@
+target/
+download.png
+
+### IntelliJ IDEA ###
+.idea/
+
+### VS Code ###
+.vscode/
