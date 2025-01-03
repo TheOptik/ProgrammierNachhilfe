@@ -17,6 +17,13 @@ public class Server {
                 try (Socket client = server.accept()) {
                     new Thread(() -> {
                         try (BufferedReader reader = new BufferedReader(new InputStreamReader(client.getInputStream())); BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()))) {
+
+
+                            reader.rea
+
+
+
+
                             while (true) {
                                 String line = reader.readLine();
                                 writer.write(line);
